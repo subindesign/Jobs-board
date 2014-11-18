@@ -102,6 +102,13 @@ span.classification-first-level:after {
 }
 
 
+.modal-footer {
+    text-align: center !important;
+}
+
+.modal a{
+    color: #fbd033;
+}
 /*----------------------------
     Job list
 -----------------------------*/
