@@ -1,0 +1,199 @@
+/*----------------------------
+    Job Details
+-----------------------------*/
+
+.event-detail-table .event-detail-label h4,
+.job-detail-table .job-detail-label h4 {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+}
+
+.event-detail-table,
+.job-detail-table {
+    margin-top: 24px;
+}
+
+.event-detail-table tr:first-child>td,
+.job-detail-table tr:first-child>td {
+    border-top: 1px solid #999;
+}
+.event-detail-table tr:last-child>td,
+.job-detail-table tr:last-child>td {
+    border-bottom: 1px solid #999;
+}
+.event-detail-table .event-detail-label,
+.job-detail-table .job-detail-label {
+    background-color: #f6f6f6;
+    padding: 22px 27px;
+}
+.event-detail-table .event-detail-label h4,
+.job-detail-table .job-detail-label h4 {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.table.event-detail-table td,
+.table.job-detail-table td {
+    padding: 22px 27px;
+    vertical-align: middle;
+}
+.event-detail-table,
+.job-detail-table {
+    margin-bottom: 0;
+}
+.event-detail-summary,
+.job-detail-summary {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.events-wrapper .add-this-wrapper,
+.job-wrapper .add-this-wrapper {
+    margin: 0 0 28px;
+    padding: 10px 0 6px;
+}
+.event-details-btns
+.job-details-btns {
+    margin-top: 33px;
+}
+.event-details-btns .btn,
+.job-details-btns .btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 14px;
+}
+.event-details-btns .btn-default,
+.job-details-btns .btn-default {
+    font-weight: 500;
+}
+.event-details-btns .btn-primary,
+.job-details-btns .btn-primary,
+.job-details-btns .btn-brand {
+    padding: 10px 34px;
+    margin-right: 10px;
+}
+
+span.classification-first-level:after {
+	content:"\f105";
+    font-family: FontAwesome;
+    padding: 0 5px 0 8px;
+}
+
+
+@media(min-width:768px) {
+    .events-wrapper h2,
+    .job-wrapper h2 {
+	    margin-top: 0;
+	}
+	.event-detail-table .events-wrapper h2,
+	.job-detail-table .events-wrapper h2 {
+	    margin-top: 0;
+	}
+	.event-detail-table .event-detail-label,
+	.job-detail-table .job-detail-label {
+	    width: 160px;
+	}
+}
+
+
+/*----------------------------
+    Job list
+-----------------------------*/
+
+#subpage-header+.container>.row>div ul.list-unstyled li,
+.landing-header-wrapper+.container>.row>div ul.list-unstyled li,
+#subpage-header+.container>.row>div ul.list-unstyled li:before,
+.landing-header-wrapper+.container>.row>div ul.list-unstyled li:before {
+    content: none;
+    padding-left: 0px;
+}
+
+.job-list-wrapper {
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    padding: 15px 0;
+    border-left: 5px solid #fff;
+}
+
+.job-list-wrapper:hover {
+    background-color: #f6f6f6;
+    border-left: 5px solid #fbd033;
+}
+
+.job-list-wrapper li.title h3 {
+    margin: 0;
+}
+
+.job-list-wrapper li.title h3:hover {
+    color: #fbd033 !important;
+}
+
+.job-list-wrapper li.intro {
+    margin-bottom: 15px;
+}
+
+.job-list-wrapper li.company,
+.job-list-wrapper li.classification {
+    font-size: 12px;
+    line-height: 17px;
+    color: #ababab;
+    margin-bottom: 10px;
+}
+
+.job-list-wrapper li.date-posted,
+.job-list-wrapper li.salary,
+.job-list-wrapper li.location{
+    color: #fbd033;
+    font-size: 12px;
+}
+
+.job-list-wrapper li.date-posted:before {
+    content:"\f073" !important;
+    font-family: FontAwesome  !important;
+    line-height: 1.0 !important;
+    font-size: 12px !important;
+    position: relative !important;
+    width: 20px !important;
+    vertical-align: middle !important;
+    padding-left: 1px !important;
+    color: #ababab !important;
+}
+
+.job-list-wrapper li.salary:before {
+    content:"\f0d6" !important;
+    font-family: FontAwesome  !important;
+    line-height: 1.0 !important;
+    font-size: 12px !important;
+    position: relative !important;
+    width: 20px !important;
+    vertical-align: middle !important;
+    color: #ababab !important;
+aai
+}
+
+.job-list-wrapper li.location:before {
+    content:"\f041" !important;
+    font-family: FontAwesome  !important;
+    line-height: 1.0 !important;
+    font-size: 12px !important;
+    position: relative !important;
+    width: 20px !important;
+    vertical-align: middle !important;
+    padding-left: 2px !important;
+    color: #ababab !important;
+}
+
+.job-list-info {
+    margin-top: 25px;
+}
+
+.job-list-info ul {
+    line-height: 1.7;
+}
+
